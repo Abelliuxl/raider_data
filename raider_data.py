@@ -1,92 +1,182 @@
 import json
 import requests
 from bs4 import BeautifulSoup
-from urllib.parse import urlparse, unquote
+from urllib.parse import urlparse, unquote_plus
 import time
 import logging
+import os
+import argparse
+from datetime import datetime
+from typing import List, Dict, Optional
+import pandas as pd
+from config import *
 
-# 设置日志
-logging.basicConfig(
-    filename='/home/liuxl/raider_data/logfile.log', 
-    level=logging.INFO,
-    format='%(asctime)s %(message)s',  # Include timestamp
-    datefmt='%m/%d/%Y %I:%M:%S %p'  # Timestamp format
-)
+class RaiderDataCollector:
+    def __init__(self, season: str = SEASON):
+        self.season = season
+        self.session = requests.Session()
+        self.session.headers.update(HEADERS)
+        self.setup_logging()
+        self.existing_data = self.load_existing_data()
 
-def get_character_info(element, character_class, spec):
-    name = element.text
-    link = element.get('href')
+    def setup_logging(self):
+        """设置日志系统"""
+        # 创建格式化器
+        formatter = logging.Formatter(
+            '%(asctime)s - %(levelname)s - %(message)s',
+            datefmt='%Y-%m-%d %H:%M:%S'
+        )
 
-    path_segments = urlparse(link).path.split('/')
-    region, realm = "", ""
-    if len(path_segments) >= 4:
-        region = path_segments[2]
-        realm = unquote(path_segments[3])
-    
-    return {'name': name, 'region': region, 'realm': realm, 'class': character_class, 'spec': spec}
+        # 设置主日志处理器
+        file_handler = logging.FileHandler(LOG_FILE)
+        file_handler.setFormatter(formatter)
+        
+        console_handler = logging.StreamHandler()
+        console_handler.setFormatter(formatter)
 
-def fetch_and_parse(url, class_color):
-    session = requests.Session()
-    try:
-        response = session.get(url)
-        response.encoding = 'utf-8'
-        soup = BeautifulSoup(response.text, 'html.parser')
-        return [element for element in soup.find_all(class_=class_color)[2:7]]
-    except Exception as e:
-        logging.error(f"Failed to fetch and parse URL: {url}. Error: {e}")
-        return []
+        # 设置错误日志处理器
+        error_handler = logging.FileHandler(ERROR_LOG_FILE)
+        error_handler.setLevel(logging.ERROR)
+        error_handler.setFormatter(formatter)  # 为错误日志添加相同的格式化器
 
-# 参数
-season = "season-df-2"
-character_classes = {
-    "death-knight": ["blood", "frost", "unholy"],
-    "demon-hunter": ["havoc", "vengeance"],
-    "druid": ["balance", "feral", "guardian", "restoration"],
-    "evoker": ["devastation", "preservation", "augmentation"],
-    "hunter": ["beast-mastery", "marksmanship", "survival"],
-    "mage": ["arcane", "fire", "frost"],
-    "monk": ["brewmaster", "windwalker", "mistweaver"],
-    "paladin": ["holy", "protection", "retribution"],
-    "priest": ["discipline", "holy", "shadow"],
-    "rogue": ["assassination", "outlaw", "subtlety"],
-    "shaman": ["elemental", "enhancement", "restoration"],
-    "warlock": ["affliction", "demonology", "destruction"],
-    "warrior": ["arms", "fury", "protection"]
-    }  
-class_colors = {
-    "death-knight": "class-color--6",
-    "demon-hunter": "class-color--12",
-    "druid": "class-color--11",
-    "evoker": "class-color--13",
-    "hunter": "class-color--3",
-    "mage": "class-color--8",
-    "monk": "class-color--10",
-    "paladin": "class-color--2",
-    "priest": "class-color--5",
-    "rogue": "class-color--4",
-    "shaman": "class-color--7",
-    "warlock": "class-color--9",
-    "warrior": "class-color--1"
-    }  
+        # 配置根日志记录器
+        logging.basicConfig(
+            level=logging.INFO,
+            handlers=[file_handler, console_handler, error_handler]
+        )
 
-# 将结果存储在这个列表中
-all_character_info = []
+    def load_existing_data(self) -> List[Dict]:
+        """加载现有数据，用于增量更新"""
+        try:
+            if os.path.exists(PLAYER_INFO_FILE):
+                with open(PLAYER_INFO_FILE, 'r', encoding='utf-8') as f:
+                    return json.load(f)
+            return []
+        except Exception as e:
+            logging.error(f"Failed to load existing data: {e}")
+            return []
 
-for character_class, specs in character_classes.items():
-    for spec in specs:
-        # 构造网址
-        url = f'https://raider.io/mythic-plus-spec-rankings/{season}/world/{character_class}/{spec}'
-        elements = fetch_and_parse(url, class_colors[character_class])
-        character_info_list = [get_character_info(element, character_class, spec) for element in elements]
-        all_character_info.extend(character_info_list)
-        logging.info(f"Successfully fetched data for {character_class} {spec}")
+    def get_character_info(self, element, character_class: str, spec: str) -> Dict:
+        """解析角色信息"""
+        try:
+            name = element.text.strip()
+            link = element.get('href', '')
+            
+            # 解析URL路径
+            parsed_url = urlparse(link)
+            path_parts = [p for p in parsed_url.path.split('/') if p]
+            
+            region = path_parts[1] if len(path_parts) > 1 else ""
+            realm = unquote_plus(path_parts[2]) if len(path_parts) > 2 else ""
+            
+            return {
+                'name': name,
+                'region': region,
+                'realm': realm,
+                'class': character_class,
+                'spec': spec,
+                'last_updated': datetime.now().isoformat()
+            }
+        except Exception as e:
+            logging.error(f"Error parsing character info for {element.text if element else 'Unknown'}: {str(e)}")
+            return None
 
-        # 暂停1秒
-        time.sleep(1)
+    def fetch_and_parse(self, url: str, class_color: str) -> List:
+        """获取和解析网页数据，带重试机制"""
+        for attempt in range(MAX_RETRIES):
+            try:
+                response = self.session.get(url, timeout=TIMEOUT)
+                response.raise_for_status()  # 检查HTTP错误
+                response.encoding = 'utf-8'
+                soup = BeautifulSoup(response.text, 'html.parser')
+                elements = soup.find_all(class_=class_color)
+                if len(elements) >= 7:
+                    return elements[2:7]  # 返回前5个角色
+                else:
+                    logging.warning(f"Found fewer than expected elements for URL {url}")
+                    return elements[2:] if len(elements) > 2 else []
+            except requests.RequestException as e:
+                logging.error(f"Attempt {attempt + 1}/{MAX_RETRIES} failed for URL {url}: {e}")
+                if attempt < MAX_RETRIES - 1:
+                    time.sleep(REQUEST_DELAY * (attempt + 1))  # 指数退避
+                    continue
+                return []
+            except Exception as e:
+                logging.error(f"Unexpected error for URL {url}: {e}")
+                return []
 
-# 将结果写入JSON文件
-try:
-    with open('/home/liuxl/raider_data/player_info.json', 'w', encoding='utf-8') as f:
-        json.dump(all_character_info, f, indent=4, ensure_ascii=False)
-except Exception as e:
-    logging.error(f"Failed to write data to JSON file. Error: {e}")
+    def collect_data(self) -> List[Dict]:
+        """收集所有角色数据"""
+        all_character_info = []
+        total_specs = sum(len(specs) for specs in CHARACTER_CLASSES.values())
+        processed_specs = 0
+
+        for character_class, specs in CHARACTER_CLASSES.items():
+            for spec in specs:
+                processed_specs += 1
+                url = API_URL_TEMPLATE.format(
+                    season=self.season,
+                    class_name=character_class,
+                    spec=spec
+                )
+                
+                logging.info(f"Processing {character_class}-{spec} ({processed_specs}/{total_specs})")
+                elements = self.fetch_and_parse(url, CLASS_COLORS[character_class])
+                
+                for element in elements:
+                    char_info = self.get_character_info(element, character_class, spec)
+                    if char_info:
+                        all_character_info.append(char_info)
+                
+                time.sleep(REQUEST_DELAY)
+
+        return all_character_info
+
+    def save_data(self, data: List[Dict], format: str = 'json'):
+        """保存数据到文件"""
+        try:
+            if format == 'json':
+                with open(PLAYER_INFO_FILE, 'w', encoding='utf-8') as f:
+                    json.dump(data, f, indent=4, ensure_ascii=False)
+            elif format == 'csv':
+                df = pd.DataFrame(data)
+                df.to_csv(PLAYER_INFO_FILE.replace('.json', '.csv'), index=False)
+            elif format == 'excel':
+                df = pd.DataFrame(data)
+                df.to_excel(PLAYER_INFO_FILE.replace('.json', '.xlsx'), index=False)
+            
+            logging.info(f"Successfully saved {len(data)} records to {format} format")
+        except Exception as e:
+            logging.error(f"Failed to save data: {e}")
+
+    def analyze_data(self, data: List[Dict]):
+        """简单的数据分析"""
+        df = pd.DataFrame(data)
+        analysis = {
+            'total_characters': len(df),
+            'characters_by_class': df['class'].value_counts().to_dict(),
+            'characters_by_region': df['region'].value_counts().to_dict(),
+            'characters_by_spec': df.groupby(['class', 'spec']).size().to_dict()
+        }
+        return analysis
+
+def main():
+    parser = argparse.ArgumentParser(description='Collect WoW character data from Raider.io')
+    parser.add_argument('--season', default=SEASON, help='Season to collect data for')
+    parser.add_argument('--format', choices=['json', 'csv', 'excel'], default='json',
+                      help='Output format')
+    parser.add_argument('--analyze', action='store_true',
+                      help='Perform data analysis after collection')
+    args = parser.parse_args()
+
+    collector = RaiderDataCollector(season=args.season)
+    data = collector.collect_data()
+    collector.save_data(data, format=args.format)
+
+    if args.analyze:
+        analysis = collector.analyze_data(data)
+        logging.info("Data Analysis Results:")
+        logging.info(json.dumps(analysis, indent=2))
+
+if __name__ == "__main__":
+    main()
