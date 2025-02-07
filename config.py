@@ -7,6 +7,12 @@ REQUEST_DELAY = 1  # 请求延迟时间（秒）
 MAX_RETRIES = 3    # 最大重试次数
 TIMEOUT = 10       # 请求超时时间（秒）
 
+# 代理配置
+PROXY = {
+    'http': 'http://127.0.0.1:7890',
+    'https': 'http://127.0.0.1:7890'
+}
+
 # 文件路径
 LOG_FILE = os.path.join(BASE_DIR, 'logfile.log')
 ERROR_LOG_FILE = os.path.join(BASE_DIR, 'logfile_error.log')

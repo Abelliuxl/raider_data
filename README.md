@@ -9,6 +9,7 @@
 - 支持多种数据导出格式（JSON、CSV、Excel）
 - 提供基本的数据分析功能
 - 完整的日志记录系统
+- 支持代理设置，优化海外网站访问
 
 ## 安装
 
@@ -22,6 +23,29 @@ cd [repository-name]
 ```bash
 pip install -r requirements.txt
 ```
+
+## 配置
+
+所有配置项都在 `config.py` 文件中，包括：
+- 赛季设置
+- 请求延迟和重试次数
+- 文件路径
+- API URL模板
+- 职业和专精配置
+- 代理设置（默认使用 127.0.0.1:7890）
+
+### 代理配置
+
+如果需要通过代理访问 Raider.io，可以在 `config.py` 中修改代理设置：
+
+```python
+PROXY = {
+    'http': 'http://127.0.0.1:7890',
+    'https': 'http://127.0.0.1:7890'
+}
+```
+
+可以根据实际情况修改代理地址和端口。
 
 ## 使用方法
 
@@ -44,15 +68,6 @@ python raider_data.py --format csv
 ```bash
 python raider_data.py --analyze
 ```
-
-## 配置
-
-所有配置项都在 `config.py` 文件中，包括：
-- 赛季设置
-- 请求延迟和重试次数
-- 文件路径
-- API URL模板
-- 职业和专精配置
 
 ## 数据格式
 
