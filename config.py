@@ -1,8 +1,31 @@
 import os
+import json
 
 # 基础配置
 BASE_DIR = os.path.dirname(os.path.abspath(__file__))
-SEASON = "season-tww-1"
+
+# 加载赛季配置
+def load_season_config():
+    """加载赛季配置文件"""
+    config_path = os.path.join(BASE_DIR, 'season_config.json')
+    try:
+        with open(config_path, 'r', encoding='utf-8') as f:
+            return json.load(f)
+    except FileNotFoundError:
+        print(f"错误：找不到配置文件 {config_path}")
+        return None
+    except json.JSONDecodeError as e:
+        print(f"错误：配置文件格式错误 {e}")
+        return None
+
+# 加载赛季配置
+season_config = load_season_config()
+if season_config:
+    SEASON = season_config.get('season', 'season-tww-2')
+else:
+    # 如果加载失败，使用默认值
+    SEASON = "season-tww-2"
+
 REQUEST_DELAY = 1  # 请求延迟时间（秒）
 MAX_RETRIES = 3    # 最大重试次数
 TIMEOUT = 10       # 请求超时时间（秒）
@@ -60,4 +83,4 @@ CLASS_COLORS = {
     "shaman": "class-color--7",
     "warlock": "class-color--9",
     "warrior": "class-color--1"
-} 
+}

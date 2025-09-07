@@ -19,7 +19,12 @@ class RaiderDataCollector:
         self.session.proxies.update(PROXY)  # 添加代理配置
         self.setup_logging()
         self.existing_data = self.load_existing_data()
+        self.log_season_info()
         logging.info("Session initialized with proxy settings")
+
+    def log_season_info(self):
+        """记录当前赛季信息"""
+        logging.info(f"当前赛季: {self.season}")
 
     def setup_logging(self):
         """设置日志系统"""

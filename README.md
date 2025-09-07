@@ -26,8 +26,22 @@ pip install -r requirements.txt
 
 ## 配置
 
-所有配置项都在 `config.py` 文件中，包括：
-- 赛季设置
+### 赛季配置
+赛季配置通过 `season_config.json` 文件管理：
+
+```json
+{
+  "season": "season-tww-2"
+}
+```
+
+**切换赛季方法：**
+1. 打开 `season_config.json` 文件
+2. 修改 `season` 字段为当前赛季
+3. 保存文件即可，无需修改代码
+
+### 其他配置项
+其他配置项在 `config.py` 文件中，包括：
 - 请求延迟和重试次数
 - 文件路径
 - API URL模板
