@@ -41,12 +41,9 @@ LOG_FILE = os.path.join(BASE_DIR, 'logfile.log')
 ERROR_LOG_FILE = os.path.join(BASE_DIR, 'logfile_error.log')
 PLAYER_INFO_FILE = os.path.join(BASE_DIR, 'player_info.json')
 
-# 请求头
+# 请求头 (User-Agent 用于 Selenium)
 HEADERS = {
-    'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36',
-    'Accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
-    'Accept-Language': 'en-US,en;q=0.5',
-    'Connection': 'keep-alive',
+    'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36'
 }
 
 # API URL模板

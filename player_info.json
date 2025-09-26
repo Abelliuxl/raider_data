@@ -1,19 +1,19 @@
 [
     {
-        "name": "Schizð",
+        "name": "Wazocutie",
+        "region": "eu",
+        "realm": "silvermoon",
+        "class": "death-knight",
+        "spec": "blood",
+        "last_updated": "2025-09-26T23:36:38.859246"
+    },
+    {
+        "name": "Kyrasis",
         "region": "us",
         "realm": "area-52",
         "class": "death-knight",
         "spec": "blood",
-        "last_updated": "2025-09-07T18:45:27.296040"
-    },
-    {
-        "name": "Jaeqt",
-        "region": "us",
-        "realm": "thrall",
-        "class": "death-knight",
-        "spec": "blood",
-        "last_updated": "2025-09-07T18:45:27.296080"
+        "last_updated": "2025-09-26T23:36:38.859304"
     },
     {
         "name": "Dodeyparton",
@@ -21,23 +21,23 @@
         "realm": "malganis",
         "class": "death-knight",
         "spec": "blood",
-        "last_updated": "2025-09-07T18:45:27.296098"
+        "last_updated": "2025-09-26T23:36:38.859328"
     },
     {
-        "name": "Gorbadiron",
-        "region": "eu",
-        "realm": "kazzak",
+        "name": "不跟风的血坦",
+        "region": "cn",
+        "realm": "alar",
         "class": "death-knight",
         "spec": "blood",
-        "last_updated": "2025-09-07T18:45:27.296113"
+        "last_updated": "2025-09-26T23:36:38.859351"
     },
     {
-        "name": "돌진어디갔어",
-        "region": "kr",
-        "realm": "azshara",
+        "name": "干锅鱼杂",
+        "region": "cn",
+        "realm": "blanchard",
         "class": "death-knight",
         "spec": "blood",
-        "last_updated": "2025-09-07T18:45:27.296131"
+        "last_updated": "2025-09-26T23:36:38.859371"
     },
     {
         "name": "Verbraidbuff",
@@ -45,7 +45,7 @@
         "realm": "tarren-mill",
         "class": "death-knight",
         "spec": "frost",
-        "last_updated": "2025-09-07T18:45:29.036793"
+        "last_updated": "2025-09-26T23:36:42.027867"
     },
     {
         "name": "Ryanlockwood",
@@ -53,23 +53,7 @@
         "realm": "illidan",
         "class": "death-knight",
         "spec": "frost",
-        "last_updated": "2025-09-07T18:45:29.036828"
-    },
-    {
-        "name": "冷酷小莓",
-        "region": "cn",
-        "realm": "shadowmourne",
-        "class": "death-knight",
-        "spec": "frost",
-        "last_updated": "2025-09-07T18:45:29.036848"
-    },
-    {
-        "name": "Myzouth",
-        "region": "eu",
-        "realm": "burning-legion",
-        "class": "death-knight",
-        "spec": "frost",
-        "last_updated": "2025-09-07T18:45:29.036864"
+        "last_updated": "2025-09-26T23:36:42.027925"
     },
     {
         "name": "在世真龙",
@@ -77,15 +61,31 @@
         "realm": "rhonin",
         "class": "death-knight",
         "spec": "frost",
-        "last_updated": "2025-09-07T18:45:29.036879"
+        "last_updated": "2025-09-26T23:36:42.027951"
     },
     {
-        "name": "Xmd",
+        "name": "Kushyii",
+        "region": "eu",
+        "realm": "tarren-mill",
+        "class": "death-knight",
+        "spec": "frost",
+        "last_updated": "2025-09-26T23:36:42.027968"
+    },
+    {
+        "name": "水水喝奶茶",
+        "region": "cn",
+        "realm": "silver-hand",
+        "class": "death-knight",
+        "spec": "frost",
+        "last_updated": "2025-09-26T23:36:42.027989"
+    },
+    {
+        "name": "Xmdw",
         "region": "cn",
         "realm": "silver-hand",
         "class": "death-knight",
         "spec": "unholy",
-        "last_updated": "2025-09-07T18:45:30.835138"
+        "last_updated": "2025-09-26T23:36:44.560317"
     },
     {
         "name": "护法夜叉",
@@ -93,63 +93,55 @@
         "realm": "hectae",
         "class": "death-knight",
         "spec": "unholy",
-        "last_updated": "2025-09-07T18:45:30.835241"
+        "last_updated": "2025-09-26T23:36:44.560364"
     },
     {
-        "name": "十六岁岁",
+        "name": "Xmd",
         "region": "cn",
-        "realm": "isillien",
+        "realm": "silver-hand",
         "class": "death-knight",
         "spec": "unholy",
-        "last_updated": "2025-09-07T18:45:30.835262"
+        "last_updated": "2025-09-26T23:36:44.560385"
     },
     {
-        "name": "Dissperia",
+        "name": "Drimdogg",
+        "region": "us",
+        "realm": "area-52",
+        "class": "death-knight",
+        "spec": "unholy",
+        "last_updated": "2025-09-26T23:36:44.560401"
+    },
+    {
+        "name": "Ðeadss",
         "region": "eu",
         "realm": "tarren-mill",
         "class": "death-knight",
         "spec": "unholy",
-        "last_updated": "2025-09-07T18:45:30.835280"
+        "last_updated": "2025-09-26T23:36:44.560417"
     },
     {
-        "name": "Luteqtz",
-        "region": "eu",
-        "realm": "blackrock",
-        "class": "death-knight",
-        "spec": "unholy",
-        "last_updated": "2025-09-07T18:45:30.835297"
-    },
-    {
-        "name": "末诚",
+        "name": "遵义瞎王",
         "region": "cn",
-        "realm": "burning-blade",
+        "realm": "blanchard",
         "class": "demon-hunter",
         "spec": "havoc",
-        "last_updated": "2025-09-07T18:45:32.898092"
+        "last_updated": "2025-09-26T23:36:47.005725"
     },
     {
-        "name": "小雨啵啵",
+        "name": "貓貓家的糖糖",
         "region": "cn",
-        "realm": "burning-blade",
+        "realm": "the-masters-glaive",
         "class": "demon-hunter",
         "spec": "havoc",
-        "last_updated": "2025-09-07T18:45:32.898129"
+        "last_updated": "2025-09-26T23:36:47.005761"
     },
     {
-        "name": "Jisoô",
-        "region": "eu",
-        "realm": "twisting-nether",
+        "name": "黑刀丨",
+        "region": "cn",
+        "realm": "arygos",
         "class": "demon-hunter",
         "spec": "havoc",
-        "last_updated": "2025-09-07T18:45:32.898148"
-    },
-    {
-        "name": "Kinbotedh",
-        "region": "us",
-        "realm": "area-52",
-        "class": "demon-hunter",
-        "spec": "havoc",
-        "last_updated": "2025-09-07T18:45:32.898164"
+        "last_updated": "2025-09-26T23:36:47.005778"
     },
     {
         "name": "止戈流呀",
@@ -157,31 +149,15 @@
         "realm": "the-golden-plains",
         "class": "demon-hunter",
         "spec": "havoc",
-        "last_updated": "2025-09-07T18:45:32.898178"
+        "last_updated": "2025-09-26T23:36:47.005793"
     },
     {
-        "name": "Raré",
+        "name": "笨蛋小莓",
         "region": "cn",
-        "realm": "blanchard",
+        "realm": "shadowmourne",
         "class": "demon-hunter",
-        "spec": "vengeance",
-        "last_updated": "2025-09-07T18:45:34.740017"
-    },
-    {
-        "name": "Alfamyscars",
-        "region": "eu",
-        "realm": "stormreaver",
-        "class": "demon-hunter",
-        "spec": "vengeance",
-        "last_updated": "2025-09-07T18:45:34.740052"
-    },
-    {
-        "name": "无间枫月",
-        "region": "cn",
-        "realm": "alar",
-        "class": "demon-hunter",
-        "spec": "vengeance",
-        "last_updated": "2025-09-07T18:45:34.740071"
+        "spec": "havoc",
+        "last_updated": "2025-09-26T23:36:47.005807"
     },
     {
         "name": "Zacdh",
@@ -189,15 +165,39 @@
         "realm": "hyjal",
         "class": "demon-hunter",
         "spec": "vengeance",
-        "last_updated": "2025-09-07T18:45:34.740086"
+        "last_updated": "2025-09-26T23:36:49.432126"
     },
     {
-        "name": "Stonedh",
+        "name": "Vadandh",
         "region": "eu",
-        "realm": "laughing-skull",
+        "realm": "kazzak",
         "class": "demon-hunter",
         "spec": "vengeance",
-        "last_updated": "2025-09-07T18:45:34.740100"
+        "last_updated": "2025-09-26T23:36:49.432164"
+    },
+    {
+        "name": "Alfamyscars",
+        "region": "eu",
+        "realm": "stormreaver",
+        "class": "demon-hunter",
+        "spec": "vengeance",
+        "last_updated": "2025-09-26T23:36:49.432181"
+    },
+    {
+        "name": "无间枫月",
+        "region": "cn",
+        "realm": "alar",
+        "class": "demon-hunter",
+        "spec": "vengeance",
+        "last_updated": "2025-09-26T23:36:49.432200"
+    },
+    {
+        "name": "Raré",
+        "region": "cn",
+        "realm": "blanchard",
+        "class": "demon-hunter",
+        "spec": "vengeance",
+        "last_updated": "2025-09-26T23:36:49.432216"
     },
     {
         "name": "Jeannelin",
@@ -205,31 +205,7 @@
         "realm": "burning-blade",
         "class": "druid",
         "spec": "balance",
-        "last_updated": "2025-09-07T18:45:36.488767"
-    },
-    {
-        "name": "Dwilkz",
-        "region": "us",
-        "realm": "zuljin",
-        "class": "druid",
-        "spec": "balance",
-        "last_updated": "2025-09-07T18:45:36.488804"
-    },
-    {
-        "name": "猪宝宝",
-        "region": "cn",
-        "realm": "chillwind-point",
-        "class": "druid",
-        "spec": "balance",
-        "last_updated": "2025-09-07T18:45:36.488824"
-    },
-    {
-        "name": "Sveyl",
-        "region": "eu",
-        "realm": "ysondre",
-        "class": "druid",
-        "spec": "balance",
-        "last_updated": "2025-09-07T18:45:36.488839"
+        "last_updated": "2025-09-26T23:36:51.946892"
     },
     {
         "name": "Goodgraces",
@@ -237,7 +213,31 @@
         "realm": "frostmourne",
         "class": "druid",
         "spec": "balance",
-        "last_updated": "2025-09-07T18:45:36.488856"
+        "last_updated": "2025-09-26T23:36:51.946930"
+    },
+    {
+        "name": "Dwilkz",
+        "region": "us",
+        "realm": "zuljin",
+        "class": "druid",
+        "spec": "balance",
+        "last_updated": "2025-09-26T23:36:51.946954"
+    },
+    {
+        "name": "猪宝宝",
+        "region": "cn",
+        "realm": "chillwind-point",
+        "class": "druid",
+        "spec": "balance",
+        "last_updated": "2025-09-26T23:36:51.946971"
+    },
+    {
+        "name": "深藍来个日光",
+        "region": "cn",
+        "realm": "valley-of-kings",
+        "class": "druid",
+        "spec": "balance",
+        "last_updated": "2025-09-26T23:36:51.946987"
     },
     {
         "name": "Murtaz",
@@ -245,15 +245,7 @@
         "realm": "kazzak",
         "class": "druid",
         "spec": "feral",
-        "last_updated": "2025-09-07T18:45:38.329232"
-    },
-    {
-        "name": "Kronahah",
-        "region": "eu",
-        "realm": "tarren-mill",
-        "class": "druid",
-        "spec": "feral",
-        "last_updated": "2025-09-07T18:45:38.329266"
+        "last_updated": "2025-09-26T23:36:54.430537"
     },
     {
         "name": "这不是猫德",
@@ -261,7 +253,23 @@
         "realm": "the-great-sea",
         "class": "druid",
         "spec": "feral",
-        "last_updated": "2025-09-07T18:45:38.329286"
+        "last_updated": "2025-09-26T23:36:54.430586"
+    },
+    {
+        "name": "Zimbita",
+        "region": "us",
+        "realm": "zuljin",
+        "class": "druid",
+        "spec": "feral",
+        "last_updated": "2025-09-26T23:36:54.430617"
+    },
+    {
+        "name": "Skollcat",
+        "region": "us",
+        "realm": "area-52",
+        "class": "druid",
+        "spec": "feral",
+        "last_updated": "2025-09-26T23:36:54.430635"
     },
     {
         "name": "Kovu",
@@ -269,15 +277,15 @@
         "realm": "ragnaros",
         "class": "druid",
         "spec": "feral",
-        "last_updated": "2025-09-07T18:45:38.329302"
+        "last_updated": "2025-09-26T23:36:54.430651"
     },
     {
-        "name": "Zerotsu",
-        "region": "cn",
-        "realm": "alar",
+        "name": "Squishvegan",
+        "region": "us",
+        "realm": "area-52",
         "class": "druid",
-        "spec": "feral",
-        "last_updated": "2025-09-07T18:45:38.329316"
+        "spec": "guardian",
+        "last_updated": "2025-09-26T23:36:56.888170"
     },
     {
         "name": "Vegansquishh",
@@ -285,7 +293,7 @@
         "realm": "area-52",
         "class": "druid",
         "spec": "guardian",
-        "last_updated": "2025-09-07T18:45:40.131232"
+        "last_updated": "2025-09-26T23:36:56.888209"
     },
     {
         "name": "Nithala",
@@ -293,7 +301,15 @@
         "realm": "twisting-nether",
         "class": "druid",
         "spec": "guardian",
-        "last_updated": "2025-09-07T18:45:40.131269"
+        "last_updated": "2025-09-26T23:36:56.888231"
+    },
+    {
+        "name": "Gnomerender",
+        "region": "eu",
+        "realm": "silvermoon",
+        "class": "druid",
+        "spec": "guardian",
+        "last_updated": "2025-09-26T23:36:56.888247"
     },
     {
         "name": "小嗨嗨呀",
@@ -301,23 +317,7 @@
         "realm": "burning-blade",
         "class": "druid",
         "spec": "guardian",
-        "last_updated": "2025-09-07T18:45:40.131290"
-    },
-    {
-        "name": "Tocador",
-        "region": "eu",
-        "realm": "zuljin",
-        "class": "druid",
-        "spec": "guardian",
-        "last_updated": "2025-09-07T18:45:40.131306"
-    },
-    {
-        "name": "Vegansquish",
-        "region": "us",
-        "realm": "area-52",
-        "class": "druid",
-        "spec": "guardian",
-        "last_updated": "2025-09-07T18:45:40.131319"
+        "last_updated": "2025-09-26T23:36:56.888267"
     },
     {
         "name": "Seraphinexd",
@@ -325,7 +325,7 @@
         "realm": "illidan",
         "class": "druid",
         "spec": "restoration",
-        "last_updated": "2025-09-07T18:45:41.964144"
+        "last_updated": "2025-09-26T23:37:00.103078"
     },
     {
         "name": "米一只",
@@ -333,31 +333,31 @@
         "realm": "the-great-sea",
         "class": "druid",
         "spec": "restoration",
-        "last_updated": "2025-09-07T18:45:41.964184"
+        "last_updated": "2025-09-26T23:37:00.103122"
     },
     {
-        "name": "冷如秋秋",
-        "region": "cn",
-        "realm": "rhonin",
-        "class": "druid",
-        "spec": "restoration",
-        "last_updated": "2025-09-07T18:45:41.964202"
-    },
-    {
-        "name": "Vickman",
+        "name": "Lmklmkdyltwi",
         "region": "eu",
         "realm": "tarren-mill",
         "class": "druid",
         "spec": "restoration",
-        "last_updated": "2025-09-07T18:45:41.964218"
+        "last_updated": "2025-09-26T23:37:00.103141"
     },
     {
-        "name": "Sonnydruid",
+        "name": "Meowmoad",
         "region": "eu",
-        "realm": "aggra-português",
+        "realm": "kazzak",
         "class": "druid",
         "spec": "restoration",
-        "last_updated": "2025-09-07T18:45:41.964233"
+        "last_updated": "2025-09-26T23:37:00.103157"
+    },
+    {
+        "name": "Zaeliamacbit",
+        "region": "eu",
+        "realm": "tarren-mill",
+        "class": "druid",
+        "spec": "restoration",
+        "last_updated": "2025-09-26T23:37:00.103171"
     },
     {
         "name": "Lizzimcguire",
@@ -365,7 +365,31 @@
         "realm": "zuljin",
         "class": "evoker",
         "spec": "devastation",
-        "last_updated": "2025-09-07T18:45:43.797192"
+        "last_updated": "2025-09-26T23:37:02.747766"
+    },
+    {
+        "name": "Chronoflame",
+        "region": "eu",
+        "realm": "silvermoon",
+        "class": "evoker",
+        "spec": "devastation",
+        "last_updated": "2025-09-26T23:37:02.747811"
+    },
+    {
+        "name": "龙东龙",
+        "region": "cn",
+        "realm": "deathwing",
+        "class": "evoker",
+        "spec": "devastation",
+        "last_updated": "2025-09-26T23:37:02.747835"
+    },
+    {
+        "name": "Itspale",
+        "region": "eu",
+        "realm": "kazzak",
+        "class": "evoker",
+        "spec": "devastation",
+        "last_updated": "2025-09-26T23:37:02.747853"
     },
     {
         "name": "Hawkev",
@@ -373,31 +397,7 @@
         "realm": "twisting-nether",
         "class": "evoker",
         "spec": "devastation",
-        "last_updated": "2025-09-07T18:45:43.797226"
-    },
-    {
-        "name": "Skitwing",
-        "region": "eu",
-        "realm": "kazzak",
-        "class": "evoker",
-        "spec": "devastation",
-        "last_updated": "2025-09-07T18:45:43.797243"
-    },
-    {
-        "name": "Myrri",
-        "region": "us",
-        "realm": "dalaran",
-        "class": "evoker",
-        "spec": "devastation",
-        "last_updated": "2025-09-07T18:45:43.797258"
-    },
-    {
-        "name": "Zarthros",
-        "region": "us",
-        "realm": "illidan",
-        "class": "evoker",
-        "spec": "devastation",
-        "last_updated": "2025-09-07T18:45:43.797271"
+        "last_updated": "2025-09-26T23:37:02.747869"
     },
     {
         "name": "Cryve",
@@ -405,7 +405,7 @@
         "realm": "twisting-nether",
         "class": "evoker",
         "spec": "preservation",
-        "last_updated": "2025-09-07T18:45:45.549949"
+        "last_updated": "2025-09-26T23:37:05.709188"
     },
     {
         "name": "Kigglypuff",
@@ -413,7 +413,7 @@
         "realm": "illidan",
         "class": "evoker",
         "spec": "preservation",
-        "last_updated": "2025-09-07T18:45:45.549995"
+        "last_updated": "2025-09-26T23:37:05.709238"
     },
     {
         "name": "Dhanglin",
@@ -421,7 +421,15 @@
         "realm": "stormrage",
         "class": "evoker",
         "spec": "preservation",
-        "last_updated": "2025-09-07T18:45:45.550016"
+        "last_updated": "2025-09-26T23:37:05.709262"
+    },
+    {
+        "name": "Throatonfire",
+        "region": "eu",
+        "realm": "dalaran",
+        "class": "evoker",
+        "spec": "preservation",
+        "last_updated": "2025-09-26T23:37:05.709281"
     },
     {
         "name": "临渊丷",
@@ -429,23 +437,7 @@
         "realm": "scarlet-crusade",
         "class": "evoker",
         "spec": "preservation",
-        "last_updated": "2025-09-07T18:45:45.550039"
-    },
-    {
-        "name": "Yzmir",
-        "region": "eu",
-        "realm": "ragnaros",
-        "class": "evoker",
-        "spec": "preservation",
-        "last_updated": "2025-09-07T18:45:45.550057"
-    },
-    {
-        "name": "Qbgosa",
-        "region": "us",
-        "realm": "malganis",
-        "class": "evoker",
-        "spec": "augmentation",
-        "last_updated": "2025-09-07T18:45:47.379548"
+        "last_updated": "2025-09-26T23:37:05.709303"
     },
     {
         "name": "Xephyris",
@@ -453,15 +445,31 @@
         "realm": "blackrock",
         "class": "evoker",
         "spec": "augmentation",
-        "last_updated": "2025-09-07T18:45:47.379583"
+        "last_updated": "2025-09-26T23:37:08.340371"
     },
     {
-        "name": "Goofydwagon",
-        "region": "eu",
-        "realm": "ravencrest",
+        "name": "Zarthros",
+        "region": "us",
+        "realm": "illidan",
         "class": "evoker",
         "spec": "augmentation",
-        "last_updated": "2025-09-07T18:45:47.379600"
+        "last_updated": "2025-09-26T23:37:08.340406"
+    },
+    {
+        "name": "Zora",
+        "region": "eu",
+        "realm": "onyxia",
+        "class": "evoker",
+        "spec": "augmentation",
+        "last_updated": "2025-09-26T23:37:08.340426"
+    },
+    {
+        "name": "Qbgosa",
+        "region": "us",
+        "realm": "malganis",
+        "class": "evoker",
+        "spec": "augmentation",
+        "last_updated": "2025-09-26T23:37:08.340441"
     },
     {
         "name": "Imtricky",
@@ -469,15 +477,7 @@
         "realm": "sargeras",
         "class": "evoker",
         "spec": "augmentation",
-        "last_updated": "2025-09-07T18:45:47.379615"
-    },
-    {
-        "name": "Indydrakes",
-        "region": "eu",
-        "realm": "proudmoore",
-        "class": "evoker",
-        "spec": "augmentation",
-        "last_updated": "2025-09-07T18:45:47.379628"
+        "last_updated": "2025-09-26T23:37:08.340455"
     },
     {
         "name": "Yarrgi",
@@ -485,7 +485,31 @@
         "realm": "kazzak",
         "class": "hunter",
         "spec": "beast-mastery",
-        "last_updated": "2025-09-07T18:45:49.188341"
+        "last_updated": "2025-09-26T23:37:10.962682"
+    },
+    {
+        "name": "小心月亮丷",
+        "region": "cn",
+        "realm": "alar",
+        "class": "hunter",
+        "spec": "beast-mastery",
+        "last_updated": "2025-09-26T23:37:10.962725"
+    },
+    {
+        "name": "Sodazoo",
+        "region": "eu",
+        "realm": "tarren-mill",
+        "class": "hunter",
+        "spec": "beast-mastery",
+        "last_updated": "2025-09-26T23:37:10.962745"
+    },
+    {
+        "name": "奶黑卡球",
+        "region": "cn",
+        "realm": "alar",
+        "class": "hunter",
+        "spec": "beast-mastery",
+        "last_updated": "2025-09-26T23:37:10.962762"
     },
     {
         "name": "Banshers",
@@ -493,47 +517,7 @@
         "realm": "stormrage",
         "class": "hunter",
         "spec": "beast-mastery",
-        "last_updated": "2025-09-07T18:45:49.188377"
-    },
-    {
-        "name": "Clarage",
-        "region": "eu",
-        "realm": "archimonde",
-        "class": "hunter",
-        "spec": "beast-mastery",
-        "last_updated": "2025-09-07T18:45:49.188393"
-    },
-    {
-        "name": "陳二胖",
-        "region": "cn",
-        "realm": "alar",
-        "class": "hunter",
-        "spec": "beast-mastery",
-        "last_updated": "2025-09-07T18:45:49.188412"
-    },
-    {
-        "name": "火箭先锋",
-        "region": "cn",
-        "realm": "alar",
-        "class": "hunter",
-        "spec": "beast-mastery",
-        "last_updated": "2025-09-07T18:45:49.188428"
-    },
-    {
-        "name": "Azortharion",
-        "region": "eu",
-        "realm": "kazzak",
-        "class": "hunter",
-        "spec": "marksmanship",
-        "last_updated": "2025-09-07T18:45:51.021133"
-    },
-    {
-        "name": "Dpxhunt",
-        "region": "eu",
-        "realm": "blackhand",
-        "class": "hunter",
-        "spec": "marksmanship",
-        "last_updated": "2025-09-07T18:45:51.021174"
+        "last_updated": "2025-09-26T23:37:10.962777"
     },
     {
         "name": "Banshers",
@@ -541,15 +525,15 @@
         "realm": "stormrage",
         "class": "hunter",
         "spec": "marksmanship",
-        "last_updated": "2025-09-07T18:45:51.021190"
+        "last_updated": "2025-09-26T23:37:13.636567"
     },
     {
-        "name": "Sallah",
+        "name": "Eyl",
         "region": "eu",
-        "realm": "ravencrest",
+        "realm": "elune",
         "class": "hunter",
         "spec": "marksmanship",
-        "last_updated": "2025-09-07T18:45:51.021207"
+        "last_updated": "2025-09-26T23:37:13.636608"
     },
     {
         "name": "深渊里滑雪",
@@ -557,39 +541,23 @@
         "realm": "scarlet-crusade",
         "class": "hunter",
         "spec": "marksmanship",
-        "last_updated": "2025-09-07T18:45:51.021227"
+        "last_updated": "2025-09-26T23:37:13.636630"
     },
     {
-        "name": "Yozora",
+        "name": "Makavileyo",
         "region": "eu",
-        "realm": "hyjal",
+        "realm": "silvermoon",
         "class": "hunter",
-        "spec": "survival",
-        "last_updated": "2025-09-07T18:45:52.783319"
+        "spec": "marksmanship",
+        "last_updated": "2025-09-26T23:37:13.636647"
     },
     {
-        "name": "Govanovic",
+        "name": "Speedv",
         "region": "eu",
-        "realm": "hyjal",
+        "realm": "twisting-nether",
         "class": "hunter",
-        "spec": "survival",
-        "last_updated": "2025-09-07T18:45:52.783356"
-    },
-    {
-        "name": "Mörkö",
-        "region": "eu",
-        "realm": "balnazzar",
-        "class": "hunter",
-        "spec": "survival",
-        "last_updated": "2025-09-07T18:45:52.783375"
-    },
-    {
-        "name": "陈钱柜",
-        "region": "cn",
-        "realm": "the-golden-plains",
-        "class": "hunter",
-        "spec": "survival",
-        "last_updated": "2025-09-07T18:45:52.783393"
+        "spec": "marksmanship",
+        "last_updated": "2025-09-26T23:37:13.636661"
     },
     {
         "name": "Banshers",
@@ -597,7 +565,39 @@
         "realm": "stormrage",
         "class": "hunter",
         "spec": "survival",
-        "last_updated": "2025-09-07T18:45:52.783405"
+        "last_updated": "2025-09-26T23:37:16.215085"
+    },
+    {
+        "name": "Yesbébé",
+        "region": "eu",
+        "realm": "hyjal",
+        "class": "hunter",
+        "spec": "survival",
+        "last_updated": "2025-09-26T23:37:16.215123"
+    },
+    {
+        "name": "Yozora",
+        "region": "eu",
+        "realm": "hyjal",
+        "class": "hunter",
+        "spec": "survival",
+        "last_updated": "2025-09-26T23:37:16.215140"
+    },
+    {
+        "name": "Govanovic",
+        "region": "eu",
+        "realm": "hyjal",
+        "class": "hunter",
+        "spec": "survival",
+        "last_updated": "2025-09-26T23:37:16.215154"
+    },
+    {
+        "name": "Daidaii",
+        "region": "eu",
+        "realm": "tarren-mill",
+        "class": "hunter",
+        "spec": "survival",
+        "last_updated": "2025-09-26T23:37:16.215167"
     },
     {
         "name": "Hearthjacks",
@@ -605,15 +605,15 @@
         "realm": "kazzak",
         "class": "mage",
         "spec": "arcane",
-        "last_updated": "2025-09-07T18:45:54.620457"
+        "last_updated": "2025-09-26T23:37:18.786346"
     },
     {
-        "name": "风为",
-        "region": "cn",
-        "realm": "silvermoon",
+        "name": "Imonthegcd",
+        "region": "us",
+        "realm": "illidan",
         "class": "mage",
         "spec": "arcane",
-        "last_updated": "2025-09-07T18:45:54.620495"
+        "last_updated": "2025-09-26T23:37:18.786382"
     },
     {
         "name": "明日奈奈子",
@@ -621,23 +621,23 @@
         "realm": "the-great-sea",
         "class": "mage",
         "spec": "arcane",
-        "last_updated": "2025-09-07T18:45:54.620513"
+        "last_updated": "2025-09-26T23:37:18.786404"
     },
     {
-        "name": "Mageirl",
+        "name": "Gingiskibidi",
         "region": "eu",
-        "realm": "ragnaros",
+        "realm": "tarren-mill",
         "class": "mage",
         "spec": "arcane",
-        "last_updated": "2025-09-07T18:45:54.620528"
+        "last_updated": "2025-09-26T23:37:18.786419"
     },
     {
-        "name": "Drjay",
-        "region": "eu",
-        "realm": "ragnaros",
+        "name": "小晖知错了",
+        "region": "cn",
+        "realm": "the-great-sea",
         "class": "mage",
         "spec": "arcane",
-        "last_updated": "2025-09-07T18:45:54.620542"
+        "last_updated": "2025-09-26T23:37:18.786433"
     },
     {
         "name": "Placement",
@@ -645,7 +645,7 @@
         "realm": "malganis",
         "class": "mage",
         "spec": "fire",
-        "last_updated": "2025-09-07T18:45:56.443950"
+        "last_updated": "2025-09-26T23:37:21.239731"
     },
     {
         "name": "Alicé",
@@ -653,15 +653,7 @@
         "realm": "the-masters-glaive",
         "class": "mage",
         "spec": "fire",
-        "last_updated": "2025-09-07T18:45:56.443985"
-    },
-    {
-        "name": "Tkpmage",
-        "region": "eu",
-        "realm": "twisting-nether",
-        "class": "mage",
-        "spec": "fire",
-        "last_updated": "2025-09-07T18:45:56.444002"
+        "last_updated": "2025-09-26T23:37:21.239776"
     },
     {
         "name": "Azunazx",
@@ -669,15 +661,23 @@
         "realm": "hyjal",
         "class": "mage",
         "spec": "fire",
-        "last_updated": "2025-09-07T18:45:56.444016"
+        "last_updated": "2025-09-26T23:37:21.239803"
     },
     {
-        "name": "Resdayn",
+        "name": "我就是小妖",
         "region": "cn",
-        "realm": "hellscream",
+        "realm": "eldrethalas",
         "class": "mage",
         "spec": "fire",
-        "last_updated": "2025-09-07T18:45:56.444029"
+        "last_updated": "2025-09-26T23:37:21.239826"
+    },
+    {
+        "name": "追忆的君",
+        "region": "cn",
+        "realm": "grim-batol",
+        "class": "mage",
+        "spec": "fire",
+        "last_updated": "2025-09-26T23:37:21.239844"
     },
     {
         "name": "黑川茜",
@@ -685,23 +685,15 @@
         "realm": "silver-hand",
         "class": "mage",
         "spec": "frost",
-        "last_updated": "2025-09-07T18:45:58.248959"
+        "last_updated": "2025-09-26T23:37:24.188053"
     },
     {
-        "name": "空灵柩",
+        "name": "Mageroysong",
         "region": "cn",
-        "realm": "burning-blade",
+        "realm": "zuldrak",
         "class": "mage",
         "spec": "frost",
-        "last_updated": "2025-09-07T18:45:58.248994"
-    },
-    {
-        "name": "Hearthjacks",
-        "region": "eu",
-        "realm": "kazzak",
-        "class": "mage",
-        "spec": "frost",
-        "last_updated": "2025-09-07T18:45:58.249009"
+        "last_updated": "2025-09-26T23:37:24.188086"
     },
     {
         "name": "Javiater",
@@ -709,15 +701,23 @@
         "realm": "ravencrest",
         "class": "mage",
         "spec": "frost",
-        "last_updated": "2025-09-07T18:45:58.249024"
+        "last_updated": "2025-09-26T23:37:24.188102"
     },
     {
-        "name": "Worthxz",
-        "region": "eu",
-        "realm": "dun-modr",
+        "name": "血麒麟灬小三",
+        "region": "cn",
+        "realm": "alar",
         "class": "mage",
         "spec": "frost",
-        "last_updated": "2025-09-07T18:45:58.249039"
+        "last_updated": "2025-09-26T23:37:24.188118"
+    },
+    {
+        "name": "空灵柩",
+        "region": "cn",
+        "realm": "burning-blade",
+        "class": "mage",
+        "spec": "frost",
+        "last_updated": "2025-09-26T23:37:24.188132"
     },
     {
         "name": "Monksea",
@@ -725,23 +725,7 @@
         "realm": "ravencrest",
         "class": "monk",
         "spec": "brewmaster",
-        "last_updated": "2025-09-07T18:46:00.057069"
-    },
-    {
-        "name": "Poah",
-        "region": "us",
-        "realm": "crushridge",
-        "class": "monk",
-        "spec": "brewmaster",
-        "last_updated": "2025-09-07T18:46:00.057104"
-    },
-    {
-        "name": "Chugmaxxing",
-        "region": "eu",
-        "realm": "blackhand",
-        "class": "monk",
-        "spec": "brewmaster",
-        "last_updated": "2025-09-07T18:46:00.057123"
+        "last_updated": "2025-09-26T23:37:26.890181"
     },
     {
         "name": "Kirabrew",
@@ -749,39 +733,31 @@
         "realm": "kazzak",
         "class": "monk",
         "spec": "brewmaster",
-        "last_updated": "2025-09-07T18:46:00.057140"
+        "last_updated": "2025-09-26T23:37:26.890232"
     },
     {
-        "name": "Imne",
+        "name": "月落丶丶",
         "region": "cn",
-        "realm": "silver-hand",
+        "realm": "isillien",
         "class": "monk",
         "spec": "brewmaster",
-        "last_updated": "2025-09-07T18:46:00.057156"
+        "last_updated": "2025-09-26T23:37:26.890256"
     },
     {
-        "name": "Эльдворфито",
-        "region": "eu",
-        "realm": "howling-fjord",
+        "name": "久月雪",
+        "region": "cn",
+        "realm": "alar",
         "class": "monk",
-        "spec": "windwalker",
-        "last_updated": "2025-09-07T18:46:01.806961"
+        "spec": "brewmaster",
+        "last_updated": "2025-09-26T23:37:26.890276"
     },
     {
-        "name": "Sanjìkun",
+        "name": "Chugmaxxing",
         "region": "eu",
-        "realm": "silvermoon",
+        "realm": "blackhand",
         "class": "monk",
-        "spec": "windwalker",
-        "last_updated": "2025-09-07T18:46:01.806996"
-    },
-    {
-        "name": "Monkasan",
-        "region": "eu",
-        "realm": "tarren-mill",
-        "class": "monk",
-        "spec": "windwalker",
-        "last_updated": "2025-09-07T18:46:01.807015"
+        "spec": "brewmaster",
+        "last_updated": "2025-09-26T23:37:26.890292"
     },
     {
         "name": "Dabnel",
@@ -789,15 +765,39 @@
         "realm": "area-52",
         "class": "monk",
         "spec": "windwalker",
-        "last_updated": "2025-09-07T18:46:01.807031"
+        "last_updated": "2025-09-26T23:37:29.495539"
     },
     {
-        "name": "Xastral",
-        "region": "us",
-        "realm": "zuljin",
+        "name": "Эльдворфито",
+        "region": "eu",
+        "realm": "howling-fjord",
         "class": "monk",
         "spec": "windwalker",
-        "last_updated": "2025-09-07T18:46:01.807046"
+        "last_updated": "2025-09-26T23:37:29.495586"
+    },
+    {
+        "name": "Sanjìkun",
+        "region": "eu",
+        "realm": "silvermoon",
+        "class": "monk",
+        "spec": "windwalker",
+        "last_updated": "2025-09-26T23:37:29.495608"
+    },
+    {
+        "name": "Erádas",
+        "region": "eu",
+        "realm": "kazzak",
+        "class": "monk",
+        "spec": "windwalker",
+        "last_updated": "2025-09-26T23:37:29.495626"
+    },
+    {
+        "name": "Gerlox",
+        "region": "eu",
+        "realm": "sylvanas",
+        "class": "monk",
+        "spec": "windwalker",
+        "last_updated": "2025-09-26T23:37:29.495643"
     },
     {
         "name": "Ortemist",
@@ -805,23 +805,7 @@
         "realm": "zuljin",
         "class": "monk",
         "spec": "mistweaver",
-        "last_updated": "2025-09-07T18:46:03.647048"
-    },
-    {
-        "name": "复生呵呵",
-        "region": "cn",
-        "realm": "stonetalon-peak",
-        "class": "monk",
-        "spec": "mistweaver",
-        "last_updated": "2025-09-07T18:46:03.647086"
-    },
-    {
-        "name": "Swirl",
-        "region": "us",
-        "realm": "area-52",
-        "class": "monk",
-        "spec": "mistweaver",
-        "last_updated": "2025-09-07T18:46:03.647105"
+        "last_updated": "2025-09-26T23:37:32.078109"
     },
     {
         "name": "悠懒瑶瑶",
@@ -829,15 +813,31 @@
         "realm": "isillien",
         "class": "monk",
         "spec": "mistweaver",
-        "last_updated": "2025-09-07T18:46:03.647123"
+        "last_updated": "2025-09-26T23:37:32.078161"
     },
     {
-        "name": "Yum",
-        "region": "eu",
-        "realm": "anetheron",
+        "name": "Censôr",
+        "region": "us",
+        "realm": "area-52",
         "class": "monk",
         "spec": "mistweaver",
-        "last_updated": "2025-09-07T18:46:03.647139"
+        "last_updated": "2025-09-26T23:37:32.078184"
+    },
+    {
+        "name": "Smoovmonk",
+        "region": "us",
+        "realm": "illidan",
+        "class": "monk",
+        "spec": "mistweaver",
+        "last_updated": "2025-09-26T23:37:32.078202"
+    },
+    {
+        "name": "晓梦馨然",
+        "region": "cn",
+        "realm": "pandaren",
+        "class": "monk",
+        "spec": "mistweaver",
+        "last_updated": "2025-09-26T23:37:32.078220"
     },
     {
         "name": "乔凌",
@@ -845,7 +845,23 @@
         "realm": "eldrethalas",
         "class": "paladin",
         "spec": "holy",
-        "last_updated": "2025-09-07T18:46:06.217758"
+        "last_updated": "2025-09-26T23:37:34.716066"
+    },
+    {
+        "name": "Mythmaster",
+        "region": "eu",
+        "realm": "taerar",
+        "class": "paladin",
+        "spec": "holy",
+        "last_updated": "2025-09-26T23:37:34.716108"
+    },
+    {
+        "name": "Skanedespair",
+        "region": "eu",
+        "realm": "tarren-mill",
+        "class": "paladin",
+        "spec": "holy",
+        "last_updated": "2025-09-26T23:37:34.716130"
     },
     {
         "name": "Ellesmere",
@@ -853,23 +869,7 @@
         "realm": "area-52",
         "class": "paladin",
         "spec": "holy",
-        "last_updated": "2025-09-07T18:46:06.217797"
-    },
-    {
-        "name": "道我",
-        "region": "cn",
-        "realm": "swiftwind",
-        "class": "paladin",
-        "spec": "holy",
-        "last_updated": "2025-09-07T18:46:06.217818"
-    },
-    {
-        "name": "Dingøo",
-        "region": "eu",
-        "realm": "hyjal",
-        "class": "paladin",
-        "spec": "holy",
-        "last_updated": "2025-09-07T18:46:06.217836"
+        "last_updated": "2025-09-26T23:37:34.716149"
     },
     {
         "name": "Immortallity",
@@ -877,7 +877,7 @@
         "realm": "stormrage",
         "class": "paladin",
         "spec": "holy",
-        "last_updated": "2025-09-07T18:46:06.217853"
+        "last_updated": "2025-09-26T23:37:34.716168"
     },
     {
         "name": "Yodafotm",
@@ -885,7 +885,7 @@
         "realm": "illidan",
         "class": "paladin",
         "spec": "protection",
-        "last_updated": "2025-09-07T18:46:08.026813"
+        "last_updated": "2025-09-26T23:37:37.589231"
     },
     {
         "name": "Shunpally",
@@ -893,15 +893,7 @@
         "realm": "the-great-sea",
         "class": "paladin",
         "spec": "protection",
-        "last_updated": "2025-09-07T18:46:08.026851"
-    },
-    {
-        "name": "Daijjuxd",
-        "region": "eu",
-        "realm": "stormreaver",
-        "class": "paladin",
-        "spec": "protection",
-        "last_updated": "2025-09-07T18:46:08.026869"
+        "last_updated": "2025-09-26T23:37:37.589268"
     },
     {
         "name": "Stonepal",
@@ -909,15 +901,23 @@
         "realm": "laughing-skull",
         "class": "paladin",
         "spec": "protection",
-        "last_updated": "2025-09-07T18:46:08.026884"
+        "last_updated": "2025-09-26T23:37:37.589285"
     },
     {
-        "name": "Vîvîlouf",
-        "region": "eu",
-        "realm": "tarren-mill",
+        "name": "丶彼岸晨曦",
+        "region": "cn",
+        "realm": "burning-blade",
         "class": "paladin",
         "spec": "protection",
-        "last_updated": "2025-09-07T18:46:08.026905"
+        "last_updated": "2025-09-26T23:37:37.589304"
+    },
+    {
+        "name": "Diamondteâr",
+        "region": "eu",
+        "realm": "twisting-nether",
+        "class": "paladin",
+        "spec": "protection",
+        "last_updated": "2025-09-26T23:37:37.589321"
     },
     {
         "name": "Melee",
@@ -925,7 +925,7 @@
         "realm": "nathrezim",
         "class": "paladin",
         "spec": "retribution",
-        "last_updated": "2025-09-07T18:46:10.837626"
+        "last_updated": "2025-09-26T23:37:40.546036"
     },
     {
         "name": "Qrva",
@@ -933,7 +933,15 @@
         "realm": "blackmoore",
         "class": "paladin",
         "spec": "retribution",
-        "last_updated": "2025-09-07T18:46:10.837660"
+        "last_updated": "2025-09-26T23:37:40.546070"
+    },
+    {
+        "name": "奥克萨丝",
+        "region": "cn",
+        "realm": "rhonin",
+        "class": "paladin",
+        "spec": "retribution",
+        "last_updated": "2025-09-26T23:37:40.546089"
     },
     {
         "name": "Xail",
@@ -941,7 +949,7 @@
         "realm": "blackhand",
         "class": "paladin",
         "spec": "retribution",
-        "last_updated": "2025-09-07T18:46:10.837678"
+        "last_updated": "2025-09-26T23:37:40.546103"
     },
     {
         "name": "Repláy",
@@ -949,23 +957,7 @@
         "realm": "blackrock",
         "class": "paladin",
         "spec": "retribution",
-        "last_updated": "2025-09-07T18:46:10.837696"
-    },
-    {
-        "name": "Huggepung",
-        "region": "eu",
-        "realm": "kazzak",
-        "class": "paladin",
-        "spec": "retribution",
-        "last_updated": "2025-09-07T18:46:10.837711"
-    },
-    {
-        "name": "Medizinmann",
-        "region": "eu",
-        "realm": "eredar",
-        "class": "priest",
-        "spec": "discipline",
-        "last_updated": "2025-09-07T18:46:13.453587"
+        "last_updated": "2025-09-26T23:37:40.546117"
     },
     {
         "name": "Clemenz",
@@ -973,15 +965,23 @@
         "realm": "stormrage",
         "class": "priest",
         "spec": "discipline",
-        "last_updated": "2025-09-07T18:46:13.453632"
+        "last_updated": "2025-09-26T23:37:43.862559"
     },
     {
-        "name": "于笙",
+        "name": "网红镇",
         "region": "cn",
-        "realm": "alar",
+        "realm": "silver-hand",
         "class": "priest",
         "spec": "discipline",
-        "last_updated": "2025-09-07T18:46:13.453656"
+        "last_updated": "2025-09-26T23:37:43.862596"
+    },
+    {
+        "name": "Medizinmann",
+        "region": "eu",
+        "realm": "eredar",
+        "class": "priest",
+        "spec": "discipline",
+        "last_updated": "2025-09-26T23:37:43.862613"
     },
     {
         "name": "Solkârîne",
@@ -989,15 +989,15 @@
         "realm": "hyjal",
         "class": "priest",
         "spec": "discipline",
-        "last_updated": "2025-09-07T18:46:13.453674"
+        "last_updated": "2025-09-26T23:37:43.862629"
     },
     {
-        "name": "渊重音",
-        "region": "cn",
-        "realm": "scarlet-crusade",
+        "name": "Tânký",
+        "region": "eu",
+        "realm": "archimonde",
         "class": "priest",
         "spec": "discipline",
-        "last_updated": "2025-09-07T18:46:13.453691"
+        "last_updated": "2025-09-26T23:37:43.862642"
     },
     {
         "name": "Keyadri",
@@ -1005,15 +1005,15 @@
         "realm": "thrall",
         "class": "priest",
         "spec": "holy",
-        "last_updated": "2025-09-07T18:46:15.255532"
+        "last_updated": "2025-09-26T23:37:46.525909"
     },
     {
-        "name": "Hannavi",
-        "region": "us",
-        "realm": "illidan",
+        "name": "瑞杰哈克",
+        "region": "cn",
+        "realm": "blanchard",
         "class": "priest",
         "spec": "holy",
-        "last_updated": "2025-09-07T18:46:15.255567"
+        "last_updated": "2025-09-26T23:37:46.525966"
     },
     {
         "name": "Wingypiglet",
@@ -1021,39 +1021,23 @@
         "realm": "ysondre",
         "class": "priest",
         "spec": "holy",
-        "last_updated": "2025-09-07T18:46:15.255584"
+        "last_updated": "2025-09-26T23:37:46.525994"
     },
     {
-        "name": "连理",
+        "name": "狸貍芙妮",
+        "region": "tw",
+        "realm": "queldorei",
+        "class": "priest",
+        "spec": "holy",
+        "last_updated": "2025-09-26T23:37:46.526011"
+    },
+    {
+        "name": "雾藤希",
         "region": "cn",
-        "realm": "silver-hand",
+        "realm": "alar",
         "class": "priest",
         "spec": "holy",
-        "last_updated": "2025-09-07T18:46:15.255603"
-    },
-    {
-        "name": "Chantelly",
-        "region": "eu",
-        "realm": "ravencrest",
-        "class": "priest",
-        "spec": "holy",
-        "last_updated": "2025-09-07T18:46:15.255620"
-    },
-    {
-        "name": "Boreasxoxo",
-        "region": "eu",
-        "realm": "kazzak",
-        "class": "priest",
-        "spec": "shadow",
-        "last_updated": "2025-09-07T18:46:17.840057"
-    },
-    {
-        "name": "Mightyshadøw",
-        "region": "eu",
-        "realm": "burning-blade",
-        "class": "priest",
-        "spec": "shadow",
-        "last_updated": "2025-09-07T18:46:17.840094"
+        "last_updated": "2025-09-26T23:37:46.526028"
     },
     {
         "name": "悲嘆之息",
@@ -1061,23 +1045,47 @@
         "realm": "the-masters-glaive",
         "class": "priest",
         "spec": "shadow",
-        "last_updated": "2025-09-07T18:46:17.840115"
+        "last_updated": "2025-09-26T23:37:49.378574"
     },
     {
-        "name": "Falser",
+        "name": "Librapriest",
         "region": "cn",
-        "realm": "alar",
+        "realm": "anzu",
         "class": "priest",
         "spec": "shadow",
-        "last_updated": "2025-09-07T18:46:17.840132"
+        "last_updated": "2025-09-26T23:37:49.378611"
     },
     {
-        "name": "Sakuria",
-        "region": "eu",
-        "realm": "blackmoore",
+        "name": "吴莉莉",
+        "region": "cn",
+        "realm": "burning-blade",
         "class": "priest",
         "spec": "shadow",
-        "last_updated": "2025-09-07T18:46:17.840147"
+        "last_updated": "2025-09-26T23:37:49.378630"
+    },
+    {
+        "name": "Mightyshadøw",
+        "region": "eu",
+        "realm": "burning-blade",
+        "class": "priest",
+        "spec": "shadow",
+        "last_updated": "2025-09-26T23:37:49.378647"
+    },
+    {
+        "name": "Nhaji",
+        "region": "eu",
+        "realm": "tarren-mill",
+        "class": "priest",
+        "spec": "shadow",
+        "last_updated": "2025-09-26T23:37:49.378662"
+    },
+    {
+        "name": "Zerøcool",
+        "region": "eu",
+        "realm": "silvermoon",
+        "class": "rogue",
+        "spec": "assassination",
+        "last_updated": "2025-09-26T23:37:51.979531"
     },
     {
         "name": "叶落小红手",
@@ -1085,31 +1093,15 @@
         "realm": "rhonin",
         "class": "rogue",
         "spec": "assassination",
-        "last_updated": "2025-09-07T18:46:20.284853"
+        "last_updated": "2025-09-26T23:37:51.979570"
     },
     {
-        "name": "炸鸡饱饱",
-        "region": "cn",
-        "realm": "the-great-sea",
+        "name": "Chainbleed",
+        "region": "us",
+        "realm": "area-52",
         "class": "rogue",
         "spec": "assassination",
-        "last_updated": "2025-09-07T18:46:20.284891"
-    },
-    {
-        "name": "小猪对我吼",
-        "region": "cn",
-        "realm": "shadowmourne",
-        "class": "rogue",
-        "spec": "assassination",
-        "last_updated": "2025-09-07T18:46:20.284919"
-    },
-    {
-        "name": "Lmmdz",
-        "region": "cn",
-        "realm": "dream-bough",
-        "class": "rogue",
-        "spec": "assassination",
-        "last_updated": "2025-09-07T18:46:20.284938"
+        "last_updated": "2025-09-26T23:37:51.979587"
     },
     {
         "name": "小红手墨客丶",
@@ -1117,7 +1109,15 @@
         "realm": "alar",
         "class": "rogue",
         "spec": "assassination",
-        "last_updated": "2025-09-07T18:46:20.284956"
+        "last_updated": "2025-09-26T23:37:51.979603"
+    },
+    {
+        "name": "Shankoh",
+        "region": "us",
+        "realm": "thrall",
+        "class": "rogue",
+        "spec": "assassination",
+        "last_updated": "2025-09-26T23:37:51.979617"
     },
     {
         "name": "Tomelvis",
@@ -1125,7 +1125,7 @@
         "realm": "draenor",
         "class": "rogue",
         "spec": "outlaw",
-        "last_updated": "2025-09-07T18:46:22.129408"
+        "last_updated": "2025-09-26T23:37:55.003567"
     },
     {
         "name": "Woxtoxic",
@@ -1133,15 +1133,7 @@
         "realm": "area-52",
         "class": "rogue",
         "spec": "outlaw",
-        "last_updated": "2025-09-07T18:46:22.129443"
-    },
-    {
-        "name": "Nëssa",
-        "region": "us",
-        "realm": "area-52",
-        "class": "rogue",
-        "spec": "outlaw",
-        "last_updated": "2025-09-07T18:46:22.129463"
+        "last_updated": "2025-09-26T23:37:55.003601"
     },
     {
         "name": "苏格大爷",
@@ -1149,7 +1141,7 @@
         "realm": "alar",
         "class": "rogue",
         "spec": "outlaw",
-        "last_updated": "2025-09-07T18:46:22.129481"
+        "last_updated": "2025-09-26T23:37:55.003621"
     },
     {
         "name": "Maximusjy",
@@ -1157,7 +1149,23 @@
         "realm": "silvermoon",
         "class": "rogue",
         "spec": "outlaw",
-        "last_updated": "2025-09-07T18:46:22.129498"
+        "last_updated": "2025-09-26T23:37:55.003636"
+    },
+    {
+        "name": "Nëssa",
+        "region": "us",
+        "realm": "area-52",
+        "class": "rogue",
+        "spec": "outlaw",
+        "last_updated": "2025-09-26T23:37:55.003650"
+    },
+    {
+        "name": "叶落小红手",
+        "region": "cn",
+        "realm": "rhonin",
+        "class": "rogue",
+        "spec": "subtlety",
+        "last_updated": "2025-09-26T23:37:57.646255"
     },
     {
         "name": "Салатикок",
@@ -1165,39 +1173,31 @@
         "realm": "howling-fjord",
         "class": "rogue",
         "spec": "subtlety",
-        "last_updated": "2025-09-07T18:46:25.057863"
+        "last_updated": "2025-09-26T23:37:57.646305"
     },
     {
-        "name": "Mortíz",
+        "name": "Jonewrld",
+        "region": "eu",
+        "realm": "ravencrest",
+        "class": "rogue",
+        "spec": "subtlety",
+        "last_updated": "2025-09-26T23:37:57.646329"
+    },
+    {
+        "name": "Monkeysiu",
+        "region": "eu",
+        "realm": "twisting-nether",
+        "class": "rogue",
+        "spec": "subtlety",
+        "last_updated": "2025-09-26T23:37:57.646347"
+    },
+    {
+        "name": "Blindsurgeon",
         "region": "us",
-        "realm": "stormrage",
+        "realm": "frostmourne",
         "class": "rogue",
         "spec": "subtlety",
-        "last_updated": "2025-09-07T18:46:25.057908"
-    },
-    {
-        "name": "奶球球求",
-        "region": "cn",
-        "realm": "alar",
-        "class": "rogue",
-        "spec": "subtlety",
-        "last_updated": "2025-09-07T18:46:25.057935"
-    },
-    {
-        "name": "Casualaddict",
-        "region": "eu",
-        "realm": "kazzak",
-        "class": "rogue",
-        "spec": "subtlety",
-        "last_updated": "2025-09-07T18:46:25.057954"
-    },
-    {
-        "name": "Mocpapieza",
-        "region": "eu",
-        "realm": "burning-legion",
-        "class": "rogue",
-        "spec": "subtlety",
-        "last_updated": "2025-09-07T18:46:25.057975"
+        "last_updated": "2025-09-26T23:37:57.646365"
     },
     {
         "name": "Bondd",
@@ -1205,7 +1205,23 @@
         "realm": "illidan",
         "class": "shaman",
         "spec": "elemental",
-        "last_updated": "2025-09-07T18:46:27.875078"
+        "last_updated": "2025-09-26T23:38:00.317958"
+    },
+    {
+        "name": "Clickzenha",
+        "region": "eu",
+        "realm": "tarren-mill",
+        "class": "shaman",
+        "spec": "elemental",
+        "last_updated": "2025-09-26T23:38:00.317997"
+    },
+    {
+        "name": "Stove",
+        "region": "eu",
+        "realm": "tarren-mill",
+        "class": "shaman",
+        "spec": "elemental",
+        "last_updated": "2025-09-26T23:38:00.318015"
     },
     {
         "name": "Fauni",
@@ -1213,7 +1229,7 @@
         "realm": "stormreaver",
         "class": "shaman",
         "spec": "elemental",
-        "last_updated": "2025-09-07T18:46:27.875125"
+        "last_updated": "2025-09-26T23:38:00.318032"
     },
     {
         "name": "Petkosham",
@@ -1221,31 +1237,7 @@
         "realm": "kazzak",
         "class": "shaman",
         "spec": "elemental",
-        "last_updated": "2025-09-07T18:46:27.875149"
-    },
-    {
-        "name": "乾坤脉涌",
-        "region": "cn",
-        "realm": "alar",
-        "class": "shaman",
-        "spec": "elemental",
-        "last_updated": "2025-09-07T18:46:27.875176"
-    },
-    {
-        "name": "Djfroosh",
-        "region": "eu",
-        "realm": "twisting-nether",
-        "class": "shaman",
-        "spec": "elemental",
-        "last_updated": "2025-09-07T18:46:27.875193"
-    },
-    {
-        "name": "Durdrann",
-        "region": "us",
-        "realm": "area-52",
-        "class": "shaman",
-        "spec": "enhancement",
-        "last_updated": "2025-09-07T18:46:30.444172"
+        "last_updated": "2025-09-26T23:38:00.318047"
     },
     {
         "name": "库帕城堡",
@@ -1253,23 +1245,15 @@
         "realm": "draenor",
         "class": "shaman",
         "spec": "enhancement",
-        "last_updated": "2025-09-07T18:46:30.444214"
+        "last_updated": "2025-09-26T23:38:02.947257"
     },
     {
-        "name": "Zulious",
-        "region": "eu",
-        "realm": "eredar",
+        "name": "Zorthar",
+        "region": "us",
+        "realm": "frostmourne",
         "class": "shaman",
         "spec": "enhancement",
-        "last_updated": "2025-09-07T18:46:30.444235"
-    },
-    {
-        "name": "Grikon",
-        "region": "eu",
-        "realm": "hyjal",
-        "class": "shaman",
-        "spec": "enhancement",
-        "last_updated": "2025-09-07T18:46:30.444253"
+        "last_updated": "2025-09-26T23:38:02.947294"
     },
     {
         "name": "Khaykazis",
@@ -1277,7 +1261,23 @@
         "realm": "ravencrest",
         "class": "shaman",
         "spec": "enhancement",
-        "last_updated": "2025-09-07T18:46:30.444269"
+        "last_updated": "2025-09-26T23:38:02.947312"
+    },
+    {
+        "name": "Durdrann",
+        "region": "us",
+        "realm": "area-52",
+        "class": "shaman",
+        "spec": "enhancement",
+        "last_updated": "2025-09-26T23:38:02.947328"
+    },
+    {
+        "name": "Элементалшок",
+        "region": "eu",
+        "realm": "howling-fjord",
+        "class": "shaman",
+        "spec": "enhancement",
+        "last_updated": "2025-09-26T23:38:02.947344"
     },
     {
         "name": "Ayijexo",
@@ -1285,7 +1285,23 @@
         "realm": "draenor",
         "class": "shaman",
         "spec": "restoration",
-        "last_updated": "2025-09-07T18:46:32.190934"
+        "last_updated": "2025-09-26T23:38:05.727738"
+    },
+    {
+        "name": "我就要消费",
+        "region": "cn",
+        "realm": "grim-batol",
+        "class": "shaman",
+        "spec": "restoration",
+        "last_updated": "2025-09-26T23:38:05.727776"
+    },
+    {
+        "name": "Tianzuicat",
+        "region": "cn",
+        "realm": "shadowmourne",
+        "class": "shaman",
+        "spec": "restoration",
+        "last_updated": "2025-09-26T23:38:05.727794"
     },
     {
         "name": "又是夏天",
@@ -1293,31 +1309,23 @@
         "realm": "silver-hand",
         "class": "shaman",
         "spec": "restoration",
-        "last_updated": "2025-09-07T18:46:32.190972"
+        "last_updated": "2025-09-26T23:38:05.727810"
     },
     {
-        "name": "电死你个贵损",
+        "name": "深蓝月光",
         "region": "cn",
-        "realm": "grim-batol",
+        "realm": "alar",
         "class": "shaman",
         "spec": "restoration",
-        "last_updated": "2025-09-07T18:46:32.190991"
+        "last_updated": "2025-09-26T23:38:05.727826"
     },
     {
-        "name": "Outisxd",
+        "name": "Mechagnomock",
         "region": "eu",
-        "realm": "kazzak",
-        "class": "shaman",
-        "spec": "restoration",
-        "last_updated": "2025-09-07T18:46:32.191008"
-    },
-    {
-        "name": "Woiiben",
-        "region": "eu",
-        "realm": "blackhand",
-        "class": "shaman",
-        "spec": "restoration",
-        "last_updated": "2025-09-07T18:46:32.191024"
+        "realm": "drakthul",
+        "class": "warlock",
+        "spec": "affliction",
+        "last_updated": "2025-09-26T23:38:08.339525"
     },
     {
         "name": "Saf",
@@ -1325,31 +1333,7 @@
         "realm": "the-maelstrom",
         "class": "warlock",
         "spec": "affliction",
-        "last_updated": "2025-09-07T18:46:34.890387"
-    },
-    {
-        "name": "Darthpotato",
-        "region": "eu",
-        "realm": "ysondre",
-        "class": "warlock",
-        "spec": "affliction",
-        "last_updated": "2025-09-07T18:46:34.890422"
-    },
-    {
-        "name": "Zarkaughn",
-        "region": "us",
-        "realm": "area-52",
-        "class": "warlock",
-        "spec": "affliction",
-        "last_updated": "2025-09-07T18:46:34.890439"
-    },
-    {
-        "name": "Därknéss",
-        "region": "eu",
-        "realm": "drakthul",
-        "class": "warlock",
-        "spec": "affliction",
-        "last_updated": "2025-09-07T18:46:34.890458"
+        "last_updated": "2025-09-26T23:38:08.339578"
     },
     {
         "name": "Undertaker",
@@ -1357,7 +1341,23 @@
         "realm": "peak-of-serenity",
         "class": "warlock",
         "spec": "affliction",
-        "last_updated": "2025-09-07T18:46:34.890474"
+        "last_updated": "2025-09-26T23:38:08.339602"
+    },
+    {
+        "name": "Gleypaokkur",
+        "region": "cn",
+        "realm": "kelthuzad",
+        "class": "warlock",
+        "spec": "affliction",
+        "last_updated": "2025-09-26T23:38:08.339629"
+    },
+    {
+        "name": "Zarkaughn",
+        "region": "us",
+        "realm": "area-52",
+        "class": "warlock",
+        "spec": "affliction",
+        "last_updated": "2025-09-26T23:38:08.339648"
     },
     {
         "name": "浮华落尽似梦",
@@ -1365,23 +1365,7 @@
         "realm": "barrens",
         "class": "warlock",
         "spec": "demonology",
-        "last_updated": "2025-09-07T18:46:37.900047"
-    },
-    {
-        "name": "Acrylicz",
-        "region": "us",
-        "realm": "malganis",
-        "class": "warlock",
-        "spec": "demonology",
-        "last_updated": "2025-09-07T18:46:37.900085"
-    },
-    {
-        "name": "奇迹行者",
-        "region": "cn",
-        "realm": "frostmane",
-        "class": "warlock",
-        "spec": "demonology",
-        "last_updated": "2025-09-07T18:46:37.900104"
+        "last_updated": "2025-09-26T23:38:11.024874"
     },
     {
         "name": "Ihana",
@@ -1389,7 +1373,23 @@
         "realm": "ravencrest",
         "class": "warlock",
         "spec": "demonology",
-        "last_updated": "2025-09-07T18:46:37.900124"
+        "last_updated": "2025-09-26T23:38:11.024925"
+    },
+    {
+        "name": "Acrylicz",
+        "region": "us",
+        "realm": "malganis",
+        "class": "warlock",
+        "spec": "demonology",
+        "last_updated": "2025-09-26T23:38:11.024946"
+    },
+    {
+        "name": "Saleyná",
+        "region": "eu",
+        "realm": "blackhand",
+        "class": "warlock",
+        "spec": "demonology",
+        "last_updated": "2025-09-26T23:38:11.024974"
     },
     {
         "name": "Gripenlock",
@@ -1397,7 +1397,7 @@
         "realm": "draenor",
         "class": "warlock",
         "spec": "demonology",
-        "last_updated": "2025-09-07T18:46:37.900139"
+        "last_updated": "2025-09-26T23:38:11.024989"
     },
     {
         "name": "梟阿梟",
@@ -1405,7 +1405,7 @@
         "realm": "pandaren",
         "class": "warlock",
         "spec": "destruction",
-        "last_updated": "2025-09-07T18:46:40.488576"
+        "last_updated": "2025-09-26T23:38:13.612522"
     },
     {
         "name": "Sjele",
@@ -1413,31 +1413,31 @@
         "realm": "twisting-nether",
         "class": "warlock",
         "spec": "destruction",
-        "last_updated": "2025-09-07T18:46:40.488612"
+        "last_updated": "2025-09-26T23:38:13.612564"
     },
     {
-        "name": "紫薯薯",
-        "region": "cn",
-        "realm": "isillien",
-        "class": "warlock",
-        "spec": "destruction",
-        "last_updated": "2025-09-07T18:46:40.488632"
-    },
-    {
-        "name": "物理输出丶",
+        "name": "找不到朋友",
         "region": "cn",
         "realm": "silver-hand",
         "class": "warlock",
         "spec": "destruction",
-        "last_updated": "2025-09-07T18:46:40.488649"
+        "last_updated": "2025-09-26T23:38:13.612585"
     },
     {
-        "name": "时钟机关之术",
-        "region": "cn",
-        "realm": "silver-hand",
+        "name": "Freakxz",
+        "region": "eu",
+        "realm": "kazzak",
         "class": "warlock",
         "spec": "destruction",
-        "last_updated": "2025-09-07T18:46:40.488666"
+        "last_updated": "2025-09-26T23:38:13.612603"
+    },
+    {
+        "name": "成大帅",
+        "region": "cn",
+        "realm": "alar",
+        "class": "warlock",
+        "spec": "destruction",
+        "last_updated": "2025-09-26T23:38:13.612620"
     },
     {
         "name": "Farover",
@@ -1445,31 +1445,23 @@
         "realm": "ravencrest",
         "class": "warrior",
         "spec": "arms",
-        "last_updated": "2025-09-07T18:46:43.365147"
+        "last_updated": "2025-09-26T23:38:16.491459"
     },
     {
-        "name": "Deepps",
-        "region": "us",
-        "realm": "malganis",
-        "class": "warrior",
-        "spec": "arms",
-        "last_updated": "2025-09-07T18:46:43.365183"
-    },
-    {
-        "name": "Gucciwarrior",
-        "region": "eu",
-        "realm": "blackhand",
-        "class": "warrior",
-        "spec": "arms",
-        "last_updated": "2025-09-07T18:46:43.365201"
-    },
-    {
-        "name": "Genjibb",
+        "name": "风车车儿丶",
         "region": "cn",
-        "realm": "deathwing",
+        "realm": "silver-hand",
         "class": "warrior",
         "spec": "arms",
-        "last_updated": "2025-09-07T18:46:43.365217"
+        "last_updated": "2025-09-26T23:38:16.491504"
+    },
+    {
+        "name": "Murms",
+        "region": "eu",
+        "realm": "stormscale",
+        "class": "warrior",
+        "spec": "arms",
+        "last_updated": "2025-09-26T23:38:16.491525"
     },
     {
         "name": "申一株",
@@ -1477,31 +1469,15 @@
         "realm": "burning-blade",
         "class": "warrior",
         "spec": "arms",
-        "last_updated": "2025-09-07T18:46:43.365235"
+        "last_updated": "2025-09-26T23:38:16.491544"
     },
     {
-        "name": "Critcake",
-        "region": "eu",
-        "realm": "silvermoon",
+        "name": "五月雨吖丶",
+        "region": "cn",
+        "realm": "silver-hand",
         "class": "warrior",
-        "spec": "fury",
-        "last_updated": "2025-09-07T18:46:46.235138"
-    },
-    {
-        "name": "Noxiv",
-        "region": "us",
-        "realm": "area-52",
-        "class": "warrior",
-        "spec": "fury",
-        "last_updated": "2025-09-07T18:46:46.235181"
-    },
-    {
-        "name": "Deepps",
-        "region": "us",
-        "realm": "malganis",
-        "class": "warrior",
-        "spec": "fury",
-        "last_updated": "2025-09-07T18:46:46.235202"
+        "spec": "arms",
+        "last_updated": "2025-09-26T23:38:16.491562"
     },
     {
         "name": "Farover",
@@ -1509,15 +1485,39 @@
         "realm": "ravencrest",
         "class": "warrior",
         "spec": "fury",
-        "last_updated": "2025-09-07T18:46:46.235216"
+        "last_updated": "2025-09-26T23:38:19.131466"
     },
     {
-        "name": "Gucciwarrior",
-        "region": "eu",
-        "realm": "blackhand",
+        "name": "Noxiv",
+        "region": "us",
+        "realm": "area-52",
         "class": "warrior",
         "spec": "fury",
-        "last_updated": "2025-09-07T18:46:46.235230"
+        "last_updated": "2025-09-26T23:38:19.131511"
+    },
+    {
+        "name": "霖楦楦",
+        "region": "cn",
+        "realm": "burning-blade",
+        "class": "warrior",
+        "spec": "fury",
+        "last_updated": "2025-09-26T23:38:19.131534"
+    },
+    {
+        "name": "裂风油",
+        "region": "cn",
+        "realm": "scarlet-crusade",
+        "class": "warrior",
+        "spec": "fury",
+        "last_updated": "2025-09-26T23:38:19.131552"
+    },
+    {
+        "name": "Bizentein",
+        "region": "eu",
+        "realm": "silvermoon",
+        "class": "warrior",
+        "spec": "fury",
+        "last_updated": "2025-09-26T23:38:19.131568"
     },
     {
         "name": "Kirawarrior",
@@ -1525,23 +1525,7 @@
         "realm": "kazzak",
         "class": "warrior",
         "spec": "protection",
-        "last_updated": "2025-09-07T18:46:48.904890"
-    },
-    {
-        "name": "丶神奇的阿诺",
-        "region": "cn",
-        "realm": "shadowmourne",
-        "class": "warrior",
-        "spec": "protection",
-        "last_updated": "2025-09-07T18:46:48.904935"
-    },
-    {
-        "name": "Vicentius",
-        "region": "eu",
-        "realm": "silvermoon",
-        "class": "warrior",
-        "spec": "protection",
-        "last_updated": "2025-09-07T18:46:48.904960"
+        "last_updated": "2025-09-26T23:38:21.741136"
     },
     {
         "name": "人間失格丶",
@@ -1549,14 +1533,30 @@
         "realm": "the-great-sea",
         "class": "warrior",
         "spec": "protection",
-        "last_updated": "2025-09-07T18:46:48.904978"
+        "last_updated": "2025-09-26T23:38:21.741188"
     },
     {
-        "name": "Andyleak",
+        "name": "Fartfarmer",
         "region": "eu",
         "realm": "tarren-mill",
         "class": "warrior",
         "spec": "protection",
-        "last_updated": "2025-09-07T18:46:48.904994"
+        "last_updated": "2025-09-26T23:38:21.741210"
+    },
+    {
+        "name": "Cherrywar",
+        "region": "cn",
+        "realm": "isillien",
+        "class": "warrior",
+        "spec": "protection",
+        "last_updated": "2025-09-26T23:38:21.741229"
+    },
+    {
+        "name": "Rá",
+        "region": "cn",
+        "realm": "alar",
+        "class": "warrior",
+        "spec": "protection",
+        "last_updated": "2025-09-26T23:38:21.741247"
     }
 ]

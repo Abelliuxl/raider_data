@@ -1,5 +1,4 @@
 import json
-import requests
 from bs4 import BeautifulSoup
 from urllib.parse import urlparse, unquote_plus
 import time
@@ -7,20 +6,48 @@ import logging
 import os
 import argparse
 from datetime import datetime
-from typing import List, Dict, Optional
+from typing import List, Dict
 import pandas as pd
+from selenium import webdriver
+from selenium.webdriver.common.by import By
+from selenium.webdriver.support.ui import WebDriverWait
+from selenium.webdriver.support import expected_conditions as EC
+from selenium.webdriver.chrome.options import Options
 from config import *
 
 class RaiderDataCollector:
     def __init__(self, season: str = SEASON):
         self.season = season
-        self.session = requests.Session()
-        self.session.headers.update(HEADERS)
-        self.session.proxies.update(PROXY)  # 添加代理配置
+        self.driver = None
         self.setup_logging()
         self.existing_data = self.load_existing_data()
         self.log_season_info()
-        logging.info("Session initialized with proxy settings")
+        self._initialize_driver()
+
+    def _initialize_driver(self):
+        """初始化Selenium WebDriver"""
+        chrome_options = Options()
+        chrome_options.page_load_strategy = 'eager'
+        chrome_options.add_argument("--headless")
+        chrome_options.add_argument("--disable-gpu")
+        chrome_options.add_argument("--no-sandbox")
+        chrome_options.add_argument("--window-size=1920,1080")
+        chrome_options.add_argument(f"user-agent={HEADERS['User-Agent']}")
+        chrome_options.add_argument("--disable-extensions")
+        chrome_options.add_argument("--disable-plugins-discovery")
+        chrome_options.add_argument("--log-level=3")
+
+        http_proxy = PROXY.get('http')
+        if http_proxy:
+            chrome_options.add_argument(f'--proxy-server={http_proxy}')
+            logging.info(f"Configuring Selenium WebDriver to use proxy: {http_proxy}")
+
+        try:
+            self.driver = webdriver.Chrome(options=chrome_options)
+            logging.info("Selenium WebDriver initialized successfully.")
+        except Exception as e:
+            logging.error(f"Failed to initialize Selenium WebDriver: {e}")
+            self.driver = None
 
     def log_season_info(self):
         """记录当前赛季信息"""
@@ -89,27 +116,44 @@ class RaiderDataCollector:
             return None
 
     def fetch_and_parse(self, url: str, class_color: str) -> List:
-        """获取和解析网页数据，带重试机制"""
+        """使用Selenium获取和解析网页数据，并包含重试机制"""
+        if not self.driver:
+            logging.error("WebDriver not initialized. Skipping fetch.")
+            return []
+
         for attempt in range(MAX_RETRIES):
             try:
-                response = self.session.get(url, timeout=TIMEOUT)
-                response.raise_for_status()  # 检查HTTP错误
-                response.encoding = 'utf-8'
-                soup = BeautifulSoup(response.text, 'html.parser')
-                elements = soup.find_all(class_=class_color)
-                if len(elements) >= 7:
-                    return elements[2:7]  # 返回前5个角色
-                else:
-                    logging.warning(f"Found fewer than expected elements for URL {url}")
-                    return elements[2:] if len(elements) > 2 else []
-            except requests.RequestException as e:
+                self.driver.get(url)
+                WebDriverWait(self.driver, TIMEOUT).until(
+                    EC.presence_of_element_located((By.CSS_SELECTOR, 'td[data-label="Rank"]'))
+                )
+                
+                soup = BeautifulSoup(self.driver.page_source, 'html.parser')
+                
+                rank_cells = soup.find_all('td', attrs={'data-label': 'Rank'})
+                if not rank_cells:
+                    logging.warning(f"No rank cells found on {url} after waiting.")
+                    # 即使成功加载页面但没有数据，也视为成功，不再重试
+                    return []
+
+                player_rows = [cell.find_parent('tr') for cell in rank_cells]
+                
+                elements = []
+                for row in player_rows:
+                    if row:
+                        char_link = row.find('a', class_=class_color)
+                        if char_link:
+                            elements.append(char_link)
+                
+                # 成功获取数据，返回结果
+                return elements[:5]
+
+            except Exception as e:
                 logging.error(f"Attempt {attempt + 1}/{MAX_RETRIES} failed for URL {url}: {e}")
                 if attempt < MAX_RETRIES - 1:
                     time.sleep(REQUEST_DELAY * (attempt + 1))  # 指数退避
                     continue
-                return []
-            except Exception as e:
-                logging.error(f"Unexpected error for URL {url}: {e}")
+                # 所有重试均失败
                 return []
 
     def collect_data(self) -> List[Dict]:
@@ -167,6 +211,12 @@ class RaiderDataCollector:
         }
         return analysis
 
+    def close(self):
+        """关闭WebDriver"""
+        if self.driver:
+            self.driver.quit()
+            logging.info("Selenium WebDriver closed.")
+
 def main():
     parser = argparse.ArgumentParser(description='Collect WoW character data from Raider.io')
     parser.add_argument('--season', default=SEASON, help='Season to collect data for')
@@ -177,13 +227,16 @@ def main():
     args = parser.parse_args()
 
     collector = RaiderDataCollector(season=args.season)
-    data = collector.collect_data()
-    collector.save_data(data, format=args.format)
+    try:
+        data = collector.collect_data()
+        collector.save_data(data, format=args.format)
 
-    if args.analyze:
-        analysis = collector.analyze_data(data)
-        logging.info("Data Analysis Results:")
-        logging.info(json.dumps(analysis, indent=2))
+        if args.analyze and data:
+            analysis = collector.analyze_data(data)
+            logging.info("Data Analysis Results:")
+            logging.info(json.dumps(analysis, indent=2))
+    finally:
+        collector.close()
 
 if __name__ == "__main__":
     main()
